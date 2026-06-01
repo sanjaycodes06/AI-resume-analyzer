@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'https://ai-resume-analyzer-6spk.onrender.com/';
+const BACKEND_URL = 'https://ai-resume-analyzer-6spk.onrender.com';
 
 export async function analyzeResume(resumeFile, jobDescription) {
   const formData = new FormData();
